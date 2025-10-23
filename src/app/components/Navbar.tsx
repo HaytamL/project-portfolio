@@ -10,31 +10,29 @@ import {
   NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
-  navigationMenuTriggerStyle,
 } from '@/components/ui/navigation-menu';
-import { CircleCheckIcon, CircleHelpIcon, CircleIcon } from 'lucide-react';
 
 const projets: { title: string; href: string; description: string }[] = [
   {
     title: 'Job Board',
     href: '/docs/alert-dialog',
-    description: "Un site permettant à des utilisateurs de postuler à des offres d'emploi.",
+    description: "Un site permettant à des utilisateurs de postuler à des offres d&apos;emploi.",
   },
   {
     title: 'Parking',
     href: '/docs/hover-card',
-    description:"Une Application permettant la gestion d'un parking automatisé.",
+    description: "Une Application permettant la gestion d&apos;un parking automatisé.",
   },
   {
     title: 'Pendu',
     href: '/docs/progress',
-    description: "Un jeu du pendu réalisé avec python."
+    description: "Un jeu du pendu réalisé avec Python.",
   },
   {
-    title:'Portfolio',
-    href:'',
-    description:"Mon portfolio."
-  }
+    title: 'Portfolio',
+    href: '',
+    description: "Mon portfolio.",
+  },
 ];
 
 function ListItem({ title, children, href, ...props }: React.ComponentPropsWithoutRef<'li'> & { href: string }) {
@@ -54,6 +52,7 @@ export default function Navbar() {
   return (
     <NavigationMenu viewport={false}>
       <NavigationMenuList>
+
         <NavigationMenuItem>
           <NavigationMenuTrigger>Accueil</NavigationMenuTrigger>
           <NavigationMenuContent>
@@ -61,8 +60,10 @@ export default function Navbar() {
               <li className="row-span-3">
                 <NavigationMenuLink asChild>
                   <Link
-                    className="from-muted/50 to-muted flex h-full w-full flex-col justify-end rounded-md bg-linear-to-b p-6 no-underline outline-hidden select-none focus:shadow-md" href="/">
-                    <div className="mt-4 mb-2 text-lg font-medium">De l'idée au code... Mon portfolio</div>
+                    className="from-muted/50 to-muted flex h-full w-full flex-col justify-end rounded-md bg-linear-to-b p-6 no-underline outline-hidden select-none focus:shadow-md"
+                    href="/"
+                  >
+                    <div className="mt-4 mb-2 text-lg font-medium">De l&apos;idée au code... Mon portfolio</div>
                     <p className="text-muted-foreground text-sm leading-tight">
                       Bienvenue !
                     </p>
@@ -81,6 +82,7 @@ export default function Navbar() {
             </ul>
           </NavigationMenuContent>
         </NavigationMenuItem>
+
         <NavigationMenuItem>
           <NavigationMenuTrigger>Skills</NavigationMenuTrigger>
           <NavigationMenuContent>
@@ -89,13 +91,13 @@ export default function Navbar() {
                 <NavigationMenuLink asChild>
                   <Link href="#">
                     <div className="font-medium">Mes langages et frameworks</div>
-                    <div className="text-muted-foreground">Découvrez les langages que j'ai appris et que j'apprends actuellement.</div>
+                    <div className="text-muted-foreground">Découvrez les langages que j&apos;ai appris et que j&apos;apprends actuellement.</div>
                   </Link>
                 </NavigationMenuLink>
                 <NavigationMenuLink asChild>
                   <Link href="#">
                     <div className="font-medium">Projets</div>
-                    <div className="text-muted-foreground">Jetez un coup d'oeil à mes projets.</div>
+                    <div className="text-muted-foreground">Jetez un coup d&apos;œil à mes projets.</div>
                   </Link>
                 </NavigationMenuLink>
                 <NavigationMenuLink asChild>
@@ -108,6 +110,7 @@ export default function Navbar() {
             </ul>
           </NavigationMenuContent>
         </NavigationMenuItem>
+
         <NavigationMenuItem>
           <NavigationMenuTrigger>Projets</NavigationMenuTrigger>
           <NavigationMenuContent>
@@ -120,6 +123,7 @@ export default function Navbar() {
             </ul>
           </NavigationMenuContent>
         </NavigationMenuItem>
+
         <NavigationMenuItem>
           <NavigationMenuTrigger>Contact</NavigationMenuTrigger>
           <NavigationMenuContent>
@@ -127,7 +131,7 @@ export default function Navbar() {
               <li>
                 <NavigationMenuLink asChild>
                   <Link href="https://github.com/HaytamL" target="_blank" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
-                    <Image src="/github.svg" alt="GitHub" width={20} height={20}/>
+                    <Image src="/github.svg" alt="GitHub" width={20} height={20} />
                     GitHub
                   </Link>
                 </NavigationMenuLink>
@@ -144,13 +148,14 @@ export default function Navbar() {
                 <NavigationMenuLink asChild>
                   <Link href="mailto:haytam.lazizi@example.com" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
                     <Image src="/contact.svg" alt="Email" width={20} height={20} />
-                    M'envoyer un email
+                    M&apos;envoyer un email
                   </Link>
                 </NavigationMenuLink>
               </li>
             </ul>
           </NavigationMenuContent>
         </NavigationMenuItem>
+
       </NavigationMenuList>
     </NavigationMenu>
   );
