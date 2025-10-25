@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Footer from "./components/Footer";
-import Navbar from "./components/Navbar";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,21 +26,17 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}
+        className={`${geistSans.variable} ${geistMono.variable} min-h-screen flex flex-col`}
       >
         <div className="fixed inset-0 -z-10 bg-[url('/background.svg')] bg-cover bg-center">
-          <div className="absolute inset-0 bg-black/20" />
+          <div className="absolute inset-0 backdrop-blur-md bg-black/20" />
         </div>
 
-        <div className="w-full flex justify-center py-4">
-          <Navbar />
-        </div>
-
-        <main className="flex-1 w-full flex justify-center overflow-y-auto px-6 py-10 scrollbar-thin scrollbar-thumb-white/40 scrollbar-track-transparent">
+        <main className="flex-1 w-full flex flex-col items-center justify-center overflow-y-auto px-6 py-10">
           {children}
         </main>
 
-        <footer className="w-full flex justify-center py-5">
+        <footer className="w-full flex justify-center py-6">
           <Footer />
         </footer>
       </body>

@@ -20,12 +20,12 @@ const projets: { title: string; href: string; description: string }[] = [
   {
     title: 'Job Board',
     href: '#job-board',
-    description: "Un site permettant à des utilisateurs de postuler à des offres d&apos;emploi.",
+    description: "Un site permettant à des utilisateurs de postuler à des offres d'emploi.",
   },
   {
     title: 'Parking',
     href: '#parking',
-    description: "Une application permettant la gestion d&apos;un parking automatisé.",
+    description: "Une application permettant la gestion d'un parking automatisé.",
   },
   {
     title: 'Pendu',
