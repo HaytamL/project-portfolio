@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -26,21 +26,24 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased relative min-h-screen`}>
-        <div className="fixed inset-0 -z-10 pointer-events-none bg-[url('/background.svg')] bg-cover bg-center">
-          <div className="absolute inset-0 backdrop-blur-md bg-black/10 pointer-events-none" />
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}
+      >
+        <div className="fixed inset-0 -z-10 bg-[url('/background.svg')] bg-cover bg-center">
+          <div className="absolute inset-0 bg-black/20" />
         </div>
-        <div className="relative z-10 w-full min-h-screen">
-          <div className="absolute top-[12%] w-full flex justify-center px-4 z-10">
-            <Navbar />
-          </div>
-          <main className="absolute top-[50%] left-0 w-full transform -translate-y-1/2 px-6 text-center sm:text-left text-white max-w-4xl mx-auto">
-            {children}
-          </main>
-          <div className="absolute bottom-[12%] w-full flex justify-center px-4 z-10">
-            <Footer />
-          </div>
+
+        <div className="w-full flex justify-center py-4">
+          <Navbar />
         </div>
+
+        <main className="flex-1 w-full flex justify-center overflow-y-auto px-6 py-10 scrollbar-thin scrollbar-thumb-white/40 scrollbar-track-transparent">
+          {children}
+        </main>
+
+        <footer className="w-full flex justify-center py-5">
+          <Footer />
+        </footer>
       </body>
     </html>
   );

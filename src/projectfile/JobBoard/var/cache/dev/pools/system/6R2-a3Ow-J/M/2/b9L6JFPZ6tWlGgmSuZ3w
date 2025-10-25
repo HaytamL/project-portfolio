@@ -1,0 +1,3 @@
+<?php //7444767bfd554bd1d4e38a9a4280d11a
+
+return [PHP_INT_MAX, 'scripts/admin/dashboard_application.js'];

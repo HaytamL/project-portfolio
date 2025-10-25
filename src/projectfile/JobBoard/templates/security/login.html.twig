@@ -1,0 +1,49 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}JobBoard - Connexion{% endblock %}
+
+{% block body %}
+<main class="min-h-svh w-full overflow-hidden flex items-center justify-center">
+    <form method="post" class="w-full p-6 flex flex-col items-center justify-center gap-6">
+        {% if error %}
+            <div role="alert" class="alert alert-warning w-full md:w-1/2 xl:w-1/4">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-full shrink-0 stroke-current" fill="none" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+                </svg>
+                <span>{{ error.messageKey|trans(error.messageData, 'security') }}</span>
+            </div>
+        {% endif %}
+    
+        {% if app.user %}
+            <div role="alert" class="alert alert-horizontal w-full md:w-1/2 xl:w-1/4">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="stroke-info h-6 w-6 shrink-0">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+                <p>Vous êtes connecté en tant que {{ app.user.firstname }} !</p>
+                <a class="btn btn-sm" href="{{ path('app_logout') }}">Déconnexion</a>
+            </div>
+        {% endif %}
+
+        <h1 class="text-3xl">Connexion</h1>
+
+        <fieldset class="fieldset w-full md:w-1/2 xl:w-1/4">
+            <legend class="fieldset-legend">Email</legend>
+            <input type="email" value="{{ last_username }}" name="email" id="inputEmail" class="form-control input w-full" autocomplete="email" required autofocus>
+        </fieldset>
+
+
+        <fieldset class="fieldset w-full md:w-1/2 xl:w-1/4">
+            <legend class="fieldset-legend">Password</legend>
+            <input type="password" name="password" id="inputPassword" class="form-control input w-full" autocomplete="current-password" required>
+        </fieldset>
+
+        
+        <input type="hidden" name="_csrf_token" data-controller="csrf-protection" value="{{ csrf_token('authenticate') }}">
+    
+        <button class="btn btn-neutral mt-4" type="submit">Se connecter</button>
+
+        <a  class="link" href="{{ path("app_register") }}">Créer un compte ?</a>
+    </form>
+</main>
+
+{% endblock %}

@@ -1,0 +1,83 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}JobBoard - Annonces{% endblock %}
+
+{% block body %}
+<script src="{{ asset("scripts/advertisement/advertisementManager.js")}}" defer></script>
+
+{% if userToken is not null %}
+    <input type="text" class="hidden" value="{{ userToken }}" id="jwt-user-token">
+{% endif %}
+
+
+<main class="w-full bg-base-100">
+    {# <button id="createApplication">Postuler</button> #}
+    <div id="advertisement-container-form" class="w-full min-h-svh flex items-center justify-center">
+
+        <div class="w-full flex flex-col items-center gap-12 lg:w-5/10 p-12 rounded-4xl">
+            <p class="text-2xl italic font-extrabold">Annonce</p>
+
+            <div class="w-full flex flex-col gap-6">
+                <h2 id="advertform-title" class="underline text-xl"></h2>
+        
+                <p id="advertform-description" class="italic font-lg font-medium"></p>
+
+                <div class="w-full flex items-center justify-between">
+                    <p id="advertform-workhours" class="font-medium"></p>
+                    
+                    <p id="advertform-salary" class="font-medium"></p>
+                </div>
+            </div>
+
+            <p class="text-2xl italic font-bold">Candidature</p>
+
+            <div class="w-full flex flex-col items-center gap-6">
+                <fieldset class="fieldset w-full xl:w-1/2">
+                    <legend class="fieldset-legend">Prénom</legend>
+                    <input id="advertform-firstname" type="text" class="input w-full" disabled/>
+                </fieldset>
+
+                <fieldset class="fieldset w-full xl:w-1/2">
+                    <legend class="fieldset-legend">Nom de famille</legend>
+                    <input id="advertform-lastname" type="text" class="input w-full" disabled/>
+                </fieldset>
+
+                <fieldset class="fieldset w-full xl:w-1/2">
+                    <legend class="fieldset-legend">Addresse email</legend>
+                    <input id="advertform-email" type="text" class="input w-full" disabled/>
+                </fieldset>
+
+                <fieldset class="fieldset w-full xl:w-1/2">
+                    <legend class="fieldset-legend">Numéro de téléphone</legend>
+                    <input id="advertform-phone" type="text" class="input w-full" disabled/>
+                </fieldset>
+
+                <fieldset class="fieldset w-full xl:w-1/2">
+                    <legend class="fieldset-legend">Message</legend>
+                    <textarea id="advertform-message" class="textarea h-24 w-full" placeholder="Message"></textarea>
+                </fieldset>
+            </div>
+
+            <div class="w-full flex items-center justify-between">
+                <button id="advertform-back" class="btn">Retour</button>
+    
+                <button id="advertform-apply" class="btn">Postuler</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="advertisement-container" class="w-full min-h-svh flex flex-col items-center justify-center gap-6 sm:px-6 lg:px-24 2xl:px-86">
+
+        <h1 class="text-3xl">Annonces</h1>
+
+        <div id="advertisement-cards-container" class="w-full flex flex-col items-between py-4 md:flex-row md:items-center md:justify-between md:flex-wrap">
+        </div>
+
+        <div class="w-full bg-base-100 h-6 my-6 flex items-center justify-center gap-4">
+            <button class="join-item btn btn-outline" id="advertisement-page-back">Précédent</button>
+            <button class="join-item btn btn-outline" id="advertisement-page-current"></button>
+            <button class="join-item btn btn-outline" id="advertisement-page-next">Suivant</button>
+        </div>
+    </div>
+</main>
+{% endblock %}

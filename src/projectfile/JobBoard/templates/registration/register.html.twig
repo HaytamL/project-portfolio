@@ -1,0 +1,47 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}JobBoard - Création de compte{% endblock %}
+
+{% block body %}
+<div class="w-full min-h-200 bg-white flex items-center justify-center">
+    <div class="w-full max-w-6xl grid grid-cols-1 md:grid-cols-2 bg-black text-white overflow-hidden">
+        <div class="relative hidden md:block">
+            <img class="absolute inset-0 w-full h-full object-cover" src="{{ asset('img/placeholder_company.jpg') }}" alt="logo" >
+        </div>
+        <div class="flex items-center justify-center px-6 py-12">
+            <div class="w-full">
+                <h1 class="text-xl font-bold tracking-tight md:text-2xl mb-6 text-center">Créer un compte</h1>
+                {{ form_errors(registrationForm) }}
+                {{ form_start(registrationForm) }}
+                    <div class="mb-4">
+                        <label for="email" class="block mb-1 text-white">Adresse mail</label>
+                        <div>{{ form_widget(registrationForm.email) }}</div>
+                    </div>
+                    <div class="mb-4">
+                        <label class="block mb-1 text-white">Prénom</label>
+                        <div>{{ form_widget(registrationForm.firstname) }}</div>
+                    </div>
+                    <div class="mb-4">
+                        <label class="block mb-1 text-white">Nom</label>
+                        <div>{{ form_widget(registrationForm.lastname) }}</div>
+                    </div>
+                    <div class="mb-4">
+                        <label class="block mb-1 text-white">Mot de passe</label>
+                        <div>{{ form_widget(registrationForm.plainPassword) }}</div>
+                    </div>
+                    <div class="mb-4">
+                        <label class="block mb-1 text-white">Conditions d'utilisation</label>
+                        {{ form_widget(registrationForm.agreeTerms) }}
+                    </div>
+                    <div class="mb-4">
+                        <p class="text-white font-bold text-center">Vous avez déjà un compte ?<br><a href="login" class="underline hover:text-blue-500 font-medium">Se connecter</a></p>
+                    </div>
+                    <div>
+                        <button type="submit" class="btn">Créer un compte</button>
+                    </div>
+                {{ form_end(registrationForm) }}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

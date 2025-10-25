@@ -1,0 +1,94 @@
+{
+  "accueil": [
+    {
+      "title": "Bienvenue sur mon portfolio",
+      "description": "De l'idée au code... Découvrez mes projets, compétences et mon parcours.",
+      "img": "/images/home.jpg"
+    }
+  ],
+
+  "a-propos": [
+    {
+      "title": "Passionné d'informatique",
+      "description": "Depuis mon enfance, l'informatique est pour moi une source de curiosité. J'ai toujours voulu comprendre comment fonctionne Internet, les jeux vidéo et les applications.",
+      "img": "/images/about-1.jpg"
+    },
+    {
+      "title": "Mon parcours académique",
+      "description": "Baccalauréat scientifique suivi d’un BTS CIEL. Aujourd'hui en 1ère année de Master Of Science à Epitech Strasbourg.",
+      "img": "/images/about-2.jpg"
+    },
+    {
+      "title": "Mes expériences",
+      "description": "Stage de 2 mois validé par un CDD d’1 mois. Ce fut une étape clé dans le développement de mes compétences professionnelles.",
+      "img": "/images/about-3.jpg"
+    }
+  ],
+
+  "formation": [
+    {
+      "title": "Master Of Science — Epitech Strasbourg",
+      "description": "Développement logiciel, innovation et gestion de projet.",
+      "img": "/Epitech.svg"
+    },
+    {
+      "title": "BTS CIEL — Cybersécurité",
+      "description": "Option informatique et réseau. Projet de fin d'études : parking automatisé.",
+      "img": "/Couffignal.svg"
+    },
+    {
+      "title": "Baccalauréat",
+      "description": "Spécialités Mathématiques, SVT, Physique-Chimie.",
+      "img": "/HM.svg"
+    }
+  ],
+
+  "projets": [
+    {
+      "title": "Projet parking automatisé",
+      "description": "Mon projet de fin d'étude qui m'a permis de valider mon BTS.",
+      "img": "/images/parking.png"
+    },
+    {
+      "title": "Job Board",
+      "description": "Plateforme permettant à des utilisateurs de postuler à des offres d'emploi.",
+      "img": "/images/jobboard.png"
+    },
+    {
+      "title": "Pendu",
+      "description": "Un jeu du pendu réalisé avec Python.",
+      "img": "/images/pendu.png"
+    },
+    {
+      "title": "Portfolio",
+      "description": "Ce site, réalisé afin de présenter mon parcours et mes compétences.",
+      "img": "/images/portfolio.png"
+    }
+  ],
+
+  "langages": [
+    { "title": "HTML", "description": "Structure des pages web.", "img": "/HTML.svg" },
+    { "title": "CSS", "description": "Mise en forme, design et animations.", "img": "/CSS.svg" },
+    { "title": "JavaScript", "description": "Interactivité web — front-end.", "img": "/JS.svg" },
+    { "title": "Python", "description": "Scripts, algorithmie et mini-jeux.", "img": "/python.svg" },
+    { "title": "C++", "description": "Programmation système et projets scolaires.", "img": "/C++.svg" },
+    { "title": "C#", "description": "Développement d’applications et jeux.", "img": "/CSHARP.svg" },
+    { "title": "SQL", "description": "Gestion de bases de données.", "img": "/SQL.svg" }
+  ],
+
+  "outils": [
+    {
+      "title": "GitHub",
+      "description": "Gestion de version et collaboration.",
+      "img": "/images/github.png"
+    },
+    {
+      "title": "Communication",
+      "description": "Aptitude à collaborer avec des équipes multi-compétences."
+    },
+    {
+      "title": "Travail d’équipe",
+      "description": "Adaptation, organisation, efficacité collective."
+    }
+  ]
+}

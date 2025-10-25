@@ -1,0 +1,181 @@
+D:\haytam\PROJET2025\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\haytam\PROJET2025\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\haytam\PROJET2025\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\haytam\PROJET2025\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+D:\haytam\PROJET2025\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+D:\haytam\PROJET2025\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\haytam\PROJET2025\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+D:\haytam\PROJET2025\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\haytam\PROJET2025\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\niine\Desktop\PROJET PARKING\PROJET2025\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\niine\Desktop\PROJET PARKING\PROJET2025\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\niine\Desktop\PROJET PARKING\PROJET2025\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\niine\Desktop\PROJET PARKING\PROJET2025\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\niine\Desktop\PROJET PARKING\PROJET2025\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\niine\Desktop\PROJET PARKING\PROJET2025\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\niine\Desktop\PROJET PARKING\PROJET2025\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\niine\Desktop\PROJET PARKING\PROJET2025\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\niine\Desktop\PROJET PARKING\PROJET2025\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\niine\Desktop\PROJET PARKING\PROJET2025\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\niine\Desktop\PROJET PARKING\PROJET2025\WindowsFormsApp1\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\niine\Desktop\PROJET PARKING\PROJET2025\WindowsFormsApp1\bin\Debug\Google.Protobuf.dll
+C:\Users\niine\Desktop\PROJET PARKING\PROJET2025\WindowsFormsApp1\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\niine\Desktop\PROJET PARKING\PROJET2025\WindowsFormsApp1\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\niine\Desktop\PROJET PARKING\PROJET2025\WindowsFormsApp1\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\niine\Desktop\PROJET PARKING\PROJET2025\WindowsFormsApp1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\niine\Desktop\PROJET PARKING\PROJET2025\WindowsFormsApp1\bin\Debug\MySql.Data.dll
+C:\Users\niine\Desktop\PROJET PARKING\PROJET2025\WindowsFormsApp1\bin\Debug\System.Buffers.dll
+C:\Users\niine\Desktop\PROJET PARKING\PROJET2025\WindowsFormsApp1\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\niine\Desktop\PROJET PARKING\PROJET2025\WindowsFormsApp1\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\niine\Desktop\PROJET PARKING\PROJET2025\WindowsFormsApp1\bin\Debug\System.IO.Pipelines.dll
+C:\Users\niine\Desktop\PROJET PARKING\PROJET2025\WindowsFormsApp1\bin\Debug\System.Memory.dll
+C:\Users\niine\Desktop\PROJET PARKING\PROJET2025\WindowsFormsApp1\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\niine\Desktop\PROJET PARKING\PROJET2025\WindowsFormsApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\niine\Desktop\PROJET PARKING\PROJET2025\WindowsFormsApp1\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\niine\Desktop\PROJET PARKING\PROJET2025\WindowsFormsApp1\bin\Debug\ZstdSharp.dll
+C:\Users\niine\Desktop\PROJET PARKING\PROJET2025\WindowsFormsApp1\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\niine\Desktop\PROJET PARKING\PROJET2025\WindowsFormsApp1\bin\Debug\Google.Protobuf.pdb
+C:\Users\niine\Desktop\PROJET PARKING\PROJET2025\WindowsFormsApp1\bin\Debug\Google.Protobuf.xml
+C:\Users\niine\Desktop\PROJET PARKING\PROJET2025\WindowsFormsApp1\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\niine\Desktop\PROJET PARKING\PROJET2025\WindowsFormsApp1\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\niine\Desktop\PROJET PARKING\PROJET2025\WindowsFormsApp1\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\niine\Desktop\PROJET PARKING\PROJET2025\WindowsFormsApp1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\niine\Desktop\PROJET PARKING\PROJET2025\WindowsFormsApp1\bin\Debug\MySql.Data.xml
+C:\Users\niine\Desktop\PROJET PARKING\PROJET2025\WindowsFormsApp1\bin\Debug\System.Buffers.xml
+C:\Users\niine\Desktop\PROJET PARKING\PROJET2025\WindowsFormsApp1\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\niine\Desktop\PROJET PARKING\PROJET2025\WindowsFormsApp1\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\niine\Desktop\PROJET PARKING\PROJET2025\WindowsFormsApp1\bin\Debug\System.IO.Pipelines.xml
+C:\Users\niine\Desktop\PROJET PARKING\PROJET2025\WindowsFormsApp1\bin\Debug\System.Memory.xml
+C:\Users\niine\Desktop\PROJET PARKING\PROJET2025\WindowsFormsApp1\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\niine\Desktop\PROJET PARKING\PROJET2025\WindowsFormsApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\niine\Desktop\PROJET PARKING\PROJET2025\WindowsFormsApp1\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\niine\Desktop\PROJET PARKING\PROJET2025\WindowsFormsApp1\obj\Debug\WindowsF.A1EEDF9B.Up2Date
+C:\Users\niine\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\niine\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\niine\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\niine\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\niine\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\Google.Protobuf.dll
+C:\Users\niine\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\niine\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\niine\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\niine\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\niine\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\MySql.Data.dll
+C:\Users\niine\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\System.Buffers.dll
+C:\Users\niine\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\niine\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\niine\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\System.IO.Pipelines.dll
+C:\Users\niine\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\System.Memory.dll
+C:\Users\niine\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\niine\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\niine\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\niine\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\ZstdSharp.dll
+C:\Users\niine\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\niine\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\Google.Protobuf.pdb
+C:\Users\niine\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\Google.Protobuf.xml
+C:\Users\niine\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\niine\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\niine\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\niine\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\niine\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\MySql.Data.xml
+C:\Users\niine\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\System.Buffers.xml
+C:\Users\niine\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\niine\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\niine\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\System.IO.Pipelines.xml
+C:\Users\niine\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\System.Memory.xml
+C:\Users\niine\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\niine\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\niine\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\niine\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\niine\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\niine\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\niine\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\niine\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\niine\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\obj\Debug\WindowsF.A1EEDF9B.Up2Date
+C:\Users\niine\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\niine\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+D:\Users\e\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\Users\e\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\Users\e\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\Users\e\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\BouncyCastle.Cryptography.dll
+D:\Users\e\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\Google.Protobuf.dll
+D:\Users\e\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\K4os.Compression.LZ4.dll
+D:\Users\e\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\Users\e\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\K4os.Hash.xxHash.dll
+D:\Users\e\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Users\e\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\MySql.Data.dll
+D:\Users\e\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\System.Buffers.dll
+D:\Users\e\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\Users\e\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Users\e\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\System.IO.Pipelines.dll
+D:\Users\e\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\System.Memory.dll
+D:\Users\e\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\System.Numerics.Vectors.dll
+D:\Users\e\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Users\e\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Users\e\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\ZstdSharp.dll
+D:\Users\e\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\BouncyCastle.Cryptography.xml
+D:\Users\e\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\Google.Protobuf.pdb
+D:\Users\e\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\Google.Protobuf.xml
+D:\Users\e\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\K4os.Compression.LZ4.xml
+D:\Users\e\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\Users\e\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\K4os.Hash.xxHash.xml
+D:\Users\e\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Users\e\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\MySql.Data.xml
+D:\Users\e\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\System.Buffers.xml
+D:\Users\e\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\Users\e\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Users\e\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\System.IO.Pipelines.xml
+D:\Users\e\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\System.Memory.xml
+D:\Users\e\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\System.Numerics.Vectors.xml
+D:\Users\e\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Users\e\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Users\e\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+D:\Users\e\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+D:\Users\e\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\Users\e\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+D:\Users\e\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+D:\Users\e\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+D:\Users\e\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\Users\e\Desktop\PROJETPARKINKV1\PROJET2025\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+D:\Users\e\Desktop\PROJETPARKINKV2\PROJET2025\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\Users\e\Desktop\PROJETPARKINKV2\PROJET2025\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\Users\e\Desktop\PROJETPARKINKV2\PROJET2025\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\Users\e\Desktop\PROJETPARKINKV2\PROJET2025\WindowsFormsApp1\bin\Debug\BouncyCastle.Cryptography.dll
+D:\Users\e\Desktop\PROJETPARKINKV2\PROJET2025\WindowsFormsApp1\bin\Debug\Google.Protobuf.dll
+D:\Users\e\Desktop\PROJETPARKINKV2\PROJET2025\WindowsFormsApp1\bin\Debug\K4os.Compression.LZ4.dll
+D:\Users\e\Desktop\PROJETPARKINKV2\PROJET2025\WindowsFormsApp1\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\Users\e\Desktop\PROJETPARKINKV2\PROJET2025\WindowsFormsApp1\bin\Debug\K4os.Hash.xxHash.dll
+D:\Users\e\Desktop\PROJETPARKINKV2\PROJET2025\WindowsFormsApp1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Users\e\Desktop\PROJETPARKINKV2\PROJET2025\WindowsFormsApp1\bin\Debug\MySql.Data.dll
+D:\Users\e\Desktop\PROJETPARKINKV2\PROJET2025\WindowsFormsApp1\bin\Debug\System.Buffers.dll
+D:\Users\e\Desktop\PROJETPARKINKV2\PROJET2025\WindowsFormsApp1\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\Users\e\Desktop\PROJETPARKINKV2\PROJET2025\WindowsFormsApp1\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Users\e\Desktop\PROJETPARKINKV2\PROJET2025\WindowsFormsApp1\bin\Debug\System.IO.Pipelines.dll
+D:\Users\e\Desktop\PROJETPARKINKV2\PROJET2025\WindowsFormsApp1\bin\Debug\System.Memory.dll
+D:\Users\e\Desktop\PROJETPARKINKV2\PROJET2025\WindowsFormsApp1\bin\Debug\System.Numerics.Vectors.dll
+D:\Users\e\Desktop\PROJETPARKINKV2\PROJET2025\WindowsFormsApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Users\e\Desktop\PROJETPARKINKV2\PROJET2025\WindowsFormsApp1\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Users\e\Desktop\PROJETPARKINKV2\PROJET2025\WindowsFormsApp1\bin\Debug\ZstdSharp.dll
+D:\Users\e\Desktop\PROJETPARKINKV2\PROJET2025\WindowsFormsApp1\bin\Debug\BouncyCastle.Cryptography.xml
+D:\Users\e\Desktop\PROJETPARKINKV2\PROJET2025\WindowsFormsApp1\bin\Debug\Google.Protobuf.pdb
+D:\Users\e\Desktop\PROJETPARKINKV2\PROJET2025\WindowsFormsApp1\bin\Debug\Google.Protobuf.xml
+D:\Users\e\Desktop\PROJETPARKINKV2\PROJET2025\WindowsFormsApp1\bin\Debug\K4os.Compression.LZ4.xml
+D:\Users\e\Desktop\PROJETPARKINKV2\PROJET2025\WindowsFormsApp1\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\Users\e\Desktop\PROJETPARKINKV2\PROJET2025\WindowsFormsApp1\bin\Debug\K4os.Hash.xxHash.xml
+D:\Users\e\Desktop\PROJETPARKINKV2\PROJET2025\WindowsFormsApp1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Users\e\Desktop\PROJETPARKINKV2\PROJET2025\WindowsFormsApp1\bin\Debug\MySql.Data.xml
+D:\Users\e\Desktop\PROJETPARKINKV2\PROJET2025\WindowsFormsApp1\bin\Debug\System.Buffers.xml
+D:\Users\e\Desktop\PROJETPARKINKV2\PROJET2025\WindowsFormsApp1\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\Users\e\Desktop\PROJETPARKINKV2\PROJET2025\WindowsFormsApp1\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Users\e\Desktop\PROJETPARKINKV2\PROJET2025\WindowsFormsApp1\bin\Debug\System.IO.Pipelines.xml
+D:\Users\e\Desktop\PROJETPARKINKV2\PROJET2025\WindowsFormsApp1\bin\Debug\System.Memory.xml
+D:\Users\e\Desktop\PROJETPARKINKV2\PROJET2025\WindowsFormsApp1\bin\Debug\System.Numerics.Vectors.xml
+D:\Users\e\Desktop\PROJETPARKINKV2\PROJET2025\WindowsFormsApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Users\e\Desktop\PROJETPARKINKV2\PROJET2025\WindowsFormsApp1\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Users\e\Desktop\PROJETPARKINKV2\PROJET2025\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+D:\Users\e\Desktop\PROJETPARKINKV2\PROJET2025\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+D:\Users\e\Desktop\PROJETPARKINKV2\PROJET2025\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\Users\e\Desktop\PROJETPARKINKV2\PROJET2025\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+D:\Users\e\Desktop\PROJETPARKINKV2\PROJET2025\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+D:\Users\e\Desktop\PROJETPARKINKV2\PROJET2025\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+D:\Users\e\Desktop\PROJETPARKINKV2\PROJET2025\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\Users\e\Desktop\PROJETPARKINKV2\PROJET2025\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
