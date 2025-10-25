@@ -2,6 +2,7 @@
 
 import * as React from 'react';
 import Image from "next/image";
+import Link from "next/link";
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -19,12 +20,12 @@ const projets: { title: string; href: string; description: string }[] = [
   {
     title: 'Job Board',
     href: '#job-board',
-    description: "Un site permettant à des utilisateurs de postuler à des offres d'emploi.",
+    description: "Un site permettant à des utilisateurs de postuler à des offres d&apos;emploi.",
   },
   {
     title: 'Parking',
     href: '#parking',
-    description: "Une application permettant la gestion d'un parking automatisé.",
+    description: "Une application permettant la gestion d&apos;un parking automatisé.",
   },
   {
     title: 'Pendu',
@@ -56,14 +57,14 @@ function ListItem({ title, children, href, onClick }: ListItemProps) {
   return (
     <li>
       <NavigationMenuLink asChild>
-        <a
+        <Link
           href={href}
           onClick={handleClick}
           className="no-underline text-black hover:opacity-80 transition-opacity"
         >
           <div className="text-sm leading-none font-medium text-black">{title}</div>
           <p className="text-black/70 line-clamp-2 text-sm leading-snug">{children}</p>
-        </a>
+        </Link>
       </NavigationMenuLink>
     </li>
   );
@@ -81,12 +82,11 @@ export default function Navbar({ onSectionSelect }: NavbarProps) {
     };
 
     const mappedKey = keyMap[section] ?? section;
-    console.log("Section cliquée:", mappedKey);
     onSectionSelect?.(mappedKey);
   };
 
   return (
-    <div className="absolute top-[12%] w-full flex justify-center px-4 z-10">
+    <div className="relative w-full flex justify-center px-4 z-10">
       <NavigationMenu viewport={false}>
         <NavigationMenuList className="text-black">
           <NavigationMenuItem>
@@ -95,18 +95,18 @@ export default function Navbar({ onSectionSelect }: NavbarProps) {
               <ul className="grid gap-2 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr] bg-white p-4 rounded-xl shadow-md">
                 <li className="row-span-3">
                   <NavigationMenuLink asChild>
-                    <a
+                    <Link
                       href="/"
                       onClick={(e) => { e.preventDefault(); handleSelect('Accueil'); }}
                       className="flex h-full w-full flex-col justify-end rounded-md p-6 no-underline select-none hover:opacity-80"
                     >
                       <div className="mt-4 mb-2 text-lg font-medium text-black">
-                        De l'idée au code... Mon portfolio
+                        De l&apos;idée au code... Mon portfolio
                       </div>
                       <p className="text-black/70 text-sm leading-tight">
                         Bienvenue !
                       </p>
-                    </a>
+                    </Link>
                   </NavigationMenuLink>
                 </li>
 
@@ -116,12 +116,25 @@ export default function Navbar({ onSectionSelect }: NavbarProps) {
                 <ListItem href="#a-propos" title="À propos de moi" onClick={handleSelect}>
                   Mon histoire
                 </ListItem>
-                <ListItem href="/public/Haytam_Lazizi_CV.pdf" title="Mon CV" onClick={handleSelect}>
-                  Cliquer pour télécharger mon CV.
-                </ListItem>
+                <li>
+                  <NavigationMenuLink asChild>
+                    <a
+                      href="/CV.pdf"
+                      onClick={(e) => {
+                        e.preventDefault();
+                        window.open('/CV.pdf', '_blank');
+                      }}
+                      className="no-underline text-black hover:opacity-80 transition-opacity"
+                    >
+                      <div className="text-sm leading-none font-medium text-black">Mon CV</div>
+                      <p className="text-black/70 line-clamp-2 text-sm leading-snug">Cliquer pour télécharger mon CV.</p>
+                    </a>
+                  </NavigationMenuLink>
+                </li>
               </ul>
             </NavigationMenuContent>
           </NavigationMenuItem>
+
 
           <NavigationMenuItem>
             <NavigationMenuTrigger className="text-black">Skills</NavigationMenuTrigger>
@@ -129,43 +142,44 @@ export default function Navbar({ onSectionSelect }: NavbarProps) {
               <ul className="grid w-[300px] gap-4 bg-white p-4 rounded-xl shadow-md">
                 <li>
                   <NavigationMenuLink asChild>
-                    <a
+                    <Link
                       href="#langages"
                       onClick={(e) => { e.preventDefault(); handleSelect('Langages'); }}
                       className="text-black"
                     >
                       <div className="font-medium">Mes langages et frameworks</div>
                       <div className="text-black/70">
-                        Découvrez les langages que j'ai appris et que j'apprends actuellement.
+                        Découvrez les langages que j&apos;ai appris et que j&apos;apprends actuellement.
                       </div>
-                    </a>
+                    </Link>
                   </NavigationMenuLink>
 
                   <NavigationMenuLink asChild>
-                    <a
+                    <Link
                       href="#projets"
                       onClick={(e) => { e.preventDefault(); handleSelect('Projets'); }}
                       className="text-black"
                     >
                       <div className="font-medium">Projets</div>
-                      <div className="text-black/70">Jetez un coup d'œil à mes projets.</div>
-                    </a>
+                      <div className="text-black/70">Jetez un coup d&apos;œil à mes projets.</div>
+                    </Link>
                   </NavigationMenuLink>
 
                   <NavigationMenuLink asChild>
-                    <a
+                    <Link
                       href="#outils"
                       onClick={(e) => { e.preventDefault(); handleSelect('Outils'); }}
                       className="text-black"
                     >
                       <div className="font-medium">Outils</div>
                       <div className="text-black/70">Les outils informatiques que je maîtrise.</div>
-                    </a>
+                    </Link>
                   </NavigationMenuLink>
                 </li>
               </ul>
             </NavigationMenuContent>
           </NavigationMenuItem>
+
 
           <NavigationMenuItem>
             <NavigationMenuTrigger className="text-black">Projets</NavigationMenuTrigger>
@@ -180,6 +194,7 @@ export default function Navbar({ onSectionSelect }: NavbarProps) {
             </NavigationMenuContent>
           </NavigationMenuItem>
 
+
           <NavigationMenuItem>
             <NavigationMenuTrigger className="text-black">Contact</NavigationMenuTrigger>
             <NavigationMenuContent>
@@ -190,7 +205,6 @@ export default function Navbar({ onSectionSelect }: NavbarProps) {
                       href="https://github.com/HaytamL"
                       target="_blank"
                       rel="noopener noreferrer"
-                      onClick={() => handleSelect('GitHub')}
                       className="flex items-center gap-3 text-black hover:opacity-80 transition-opacity"
                     >
                       <Image src="/github.svg" alt="GitHub" width={20} height={20} />
@@ -204,7 +218,6 @@ export default function Navbar({ onSectionSelect }: NavbarProps) {
                       href="https://www.linkedin.com/in/haytam-lazizi-vix-931882386/"
                       target="_blank"
                       rel="noopener noreferrer"
-                      onClick={() => handleSelect('LinkedIn')}
                       className="flex items-center gap-3 text-black hover:opacity-80 transition-opacity"
                     >
                       <Image src="/linkedin-big-logo.svg" alt="LinkedIn" width={20} height={20} />
@@ -215,12 +228,11 @@ export default function Navbar({ onSectionSelect }: NavbarProps) {
                 <li>
                   <NavigationMenuLink asChild>
                     <a
-                      href="mailto:haytam.lazizi-vix@epitech.eu"
-                      onClick={() => handleSelect('Email')}
+                      href="mailto:haytam.lazizi@example.com"
                       className="flex items-center gap-3 text-black hover:opacity-80 transition-opacity"
                     >
                       <Image src="/contact.svg" alt="Email" width={20} height={20} />
-                      M'envoyer un email
+                      M&apos;envoyer un email
                     </a>
                   </NavigationMenuLink>
                 </li>

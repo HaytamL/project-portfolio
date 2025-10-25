@@ -1,5 +1,7 @@
 'use client';
 
+import Image from "next/image";
+
 type Slide = {
   title?: string;
   description: string;
@@ -34,9 +36,11 @@ export default function CategoryCards({ title, slides }: Props) {
                          transition-transform duration-300 hover:scale-[1.06] hover:bg-white/20"
             >
               {slide.img && (
-                <img
+                <Image
                   src={slide.img}
                   alt={slide.title || "Image"}
+                  width={300}
+                  height={200}
                   className="w-full h-48 object-contain rounded-xl mb-6"
                 />
               )}
@@ -59,9 +63,11 @@ export default function CategoryCards({ title, slides }: Props) {
             >
               {slide.img && (
                 <div className="w-full md:w-[45%] aspect-[16/9] rounded-2xl overflow-hidden bg-white/5 flex items-center justify-center">
-                  <img
+                  <Image
                     src={slide.img}
                     alt={slide.title || "Image"}
+                    width={800}
+                    height={450}
                     className={
                       useContainOnLarge
                         ? "w-full h-full object-contain p-2"
