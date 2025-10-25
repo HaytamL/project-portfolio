@@ -20,7 +20,7 @@
     },
     {
       "title": "Mes expériences",
-      "description": "Stage de 2 mois validé par un CDD d’1 mois. Ce fut une étape clé dans le développement de mes compétences professionnelles.",
+      "description": "Stage de 2 mois validé par un CDD d’un mois. Ce fut une étape clé dans le développement de mes compétences professionnelles.",
       "img": "/images/about-3.jpg"
     }
   ],
@@ -29,17 +29,17 @@
     {
       "title": "Master Of Science — Epitech Strasbourg",
       "description": "Développement logiciel, innovation et gestion de projet.",
-      "img": "/Epitech.svg"
+      "img": "/epitech.svg"
     },
     {
       "title": "BTS CIEL — Cybersécurité",
       "description": "Option informatique et réseau. Projet de fin d'études : parking automatisé.",
-      "img": "/Couffignal.svg"
+      "img": "/couffignal.svg"
     },
     {
       "title": "Baccalauréat",
       "description": "Spécialités Mathématiques, SVT, Physique-Chimie.",
-      "img": "/HM.svg"
+      "img": "/hm.svg"
     }
   ],
 
@@ -67,20 +67,20 @@
   ],
 
   "langages": [
-    { "title": "HTML", "description": "Structure des pages web.", "img": "/HTML.svg" },
-    { "title": "CSS", "description": "Mise en forme, design et animations.", "img": "/CSS.svg" },
-    { "title": "JavaScript", "description": "Interactivité web — front-end.", "img": "/JS.svg" },
+    { "title": "HTML", "description": "Structure des pages web.", "img": "/html.svg" },
+    { "title": "CSS", "description": "Mise en forme, design et animations.", "img": "/css.svg" },
+    { "title": "JavaScript", "description": "Interactivité web — front-end.", "img": "/js.svg" },
     { "title": "Python", "description": "Scripts, algorithmie et mini-jeux.", "img": "/python.svg" },
-    { "title": "C++", "description": "Programmation système et projets scolaires.", "img": "/C++.svg" },
-    { "title": "C#", "description": "Développement d’applications et jeux.", "img": "/CSHARP.svg" },
-    { "title": "SQL", "description": "Gestion de bases de données.", "img": "/SQL.svg" }
+    { "title": "C++", "description": "Programmation système et projets scolaires.", "img": "/cplusplus.svg" },
+    { "title": "C#", "description": "Développement d'applications et jeux.", "img": "/csharp.svg" },
+    { "title": "SQL", "description": "Gestion de bases de données.", "img": "/sql.svg" }
   ],
 
   "outils": [
     {
       "title": "GitHub",
       "description": "Gestion de version et collaboration.",
-      "img": "/images/github.png"
+      "img": "/github.svg"
     },
     {
       "title": "Communication",
