@@ -1,4 +1,4 @@
-{
+const slidesData = {
   "accueil": [
     {
       "title": "De l'idée au code... Découvrez mes projets, mes compétences et mon parcours.",
@@ -44,21 +44,25 @@
     {
       "title": "Projet parking automatisé",
       "description": "Mon projet de fin d'étude qui m'a permis de valider mon BTS.",
+      "href":"/parking",
       "img": "/images/parking.png"
     },
     {
       "title": "Job Board",
       "description": "Plateforme permettant à des utilisateurs de postuler à des offres d'emploi.",
+      "href":"/jobboard",
       "img": "/images/jobboard.png"
     },
     {
       "title": "Pendu",
       "description": "Un jeu du pendu réalisé avec Python.",
+      "href":"/hangman",
       "img": "/images/hangman.png"
     },
     {
       "title": "Portfolio",
       "description": "Ce site, réalisé afin de présenter mon parcours et mes compétences.",
+      "href":"/portfolio",
       "img": "/logo.png"
     }
   ],
@@ -99,4 +103,6 @@
     }
   ]
 
-}
+};
+
+export default slidesData;

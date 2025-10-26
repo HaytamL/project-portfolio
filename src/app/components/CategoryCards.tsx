@@ -17,14 +17,11 @@ type Props = {
 export default function CategoryCards({ title, slides }: Props) {
   const smallGridSections = ["langages", "projets"];
   const isSmallGrid = smallGridSections.includes(title);
-
   const coverLargeSections = ["accueil"];
   const containLargeSections = ["formation", "outils", "a-propos"];
   const useCoverOnLarge = coverLargeSections.includes(title);
   const useContainOnLarge = containLargeSections.includes(title);
-
   const showDates = title === "formation";
-
   return (
     <div className="w-full text-center">
       {isSmallGrid ? (

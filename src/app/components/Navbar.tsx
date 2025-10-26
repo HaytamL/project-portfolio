@@ -19,22 +19,22 @@ interface NavbarProps {
 const projets: { title: string; href: string; description: string }[] = [
   {
     title: 'Job Board',
-    href: '#job-board',
+    href: '/jobboard',
     description: "Un site permettant à des utilisateurs de postuler à des offres d'emploi.",
   },
   {
     title: 'Parking',
-    href: '#parking',
+    href: '/parking',
     description: "Une application permettant la gestion d'un parking automatisé.",
   },
   {
     title: 'Pendu',
-    href: '#pendu',
+    href: '/pendu',
     description: "Un jeu du pendu réalisé avec Python.",
   },
   {
     title: 'Portfolio',
-    href: '#portfolio',
+    href: '/portfolio',
     description: "Mon portfolio.",
   },
 ];
@@ -48,7 +48,7 @@ type ListItemProps = {
 
 function ListItem({ title, children, href, onClick }: ListItemProps) {
   const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
-    if (onClick) {
+  if (onClick && href.startsWith("#")) {
       e.preventDefault();
       onClick(title);
     }
@@ -112,7 +112,7 @@ export default function Navbar({ onSectionSelect }: NavbarProps) {
                 
                 <li>
                   <NavigationMenuLink asChild>
-                    <a href="/CV.pdf" onClick={(e) => { e.preventDefault(); window.open('/CV.pdf', '_blank'); }} className="no-underline text-black hover:opacity-80 transition-opacity">
+                    <a href="/cvhaytam.pdf" download className="no-underline text-black hover:opacity-80 transition-opacity">
                       <div className="text-sm leading-none font-medium text-black">Mon CV</div>
                       <p className="text-black/70 line-clamp-2 text-sm leading-snug">Cliquer pour télécharger mon CV.</p>
                     </a>
