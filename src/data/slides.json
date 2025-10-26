@@ -1,8 +1,8 @@
 {
   "accueil": [
     {
-      "title": "Bienvenue sur mon portfolio",
-      "description": "De l'idée au code... Découvrez mes projets, mes compétences et mon parcours.",
+      "title": "De l'idée au code... Découvrez mes projets, mes compétences et mon parcours.",
+      "description": "Si vous souhaitez me contacter, mon email est le suivant : haytam.lazizi-vix@epitech.eu. Pour être redirigé vers votre boîte mail, rendez-vous dans l'onglet contact. ",
       "img": "/images/pp.png"
     }
   ],
