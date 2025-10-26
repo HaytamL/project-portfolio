@@ -186,7 +186,7 @@ export default function Navbar({ onSectionSelect }: NavbarProps) {
                 </li>
                 <li>
                   <NavigationMenuLink asChild>
-                    <a href="mailto:haytam.lazizi-vix@epitech-eu" className="flex items-center gap-3 text-black hover:opacity-80 transition-opacity">
+                    <a href="mailto:haytam.lazizi-vix@epitech.eu" className="flex items-center gap-3 text-black hover:opacity-80 transition-opacity">
                       <Image src="/contact.svg" alt="Email" width={20} height={20} /> M&apos;envoyer un email
                     </a>
                   </NavigationMenuLink>
