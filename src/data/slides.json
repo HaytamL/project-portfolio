@@ -23,19 +23,19 @@
     {
       "title": "Master Of Science — Epitech Strasbourg",
       "description": "Développement logiciel, innovation et gestion de projet. Me permettra de devenir un développeur confirmé.",
-      "img": "/epitech.svg",
+      "img": "/epitech.png",
       "dates": "2025-2028"
     },
     {
       "title": "BTS CIEL — Cybersécurité",
       "description": "Option informatique et réseau. Projet de fin d'études : parking automatisé. M'a permis de développer mes premières compétences informatiques, et d'acquérir de solides bases.",
-      "img": "/couffignal.svg",
+      "img": "/couffignal.png",
       "dates": "2023-2025"
     },
     {
       "title": "Baccalauréat",
       "description": "Spécialités Mathématiques, SVT, Physique-Chimie.",
-      "img": "/hm.svg",
+      "img": "/hm.png",
       "dates": "2020-2023"
     }
   ],
@@ -64,14 +64,14 @@
   ],
 
   "langages": [
-    { "title": "HTML", "description": "Structure des pages web. J'ai énormément utilisé ce langage en première année de BTS pour réaliser des petits sites.", "img": "/html.svg" },
-    { "title": "CSS", "description": "Mise en forme, design et animations. J'ai commencé à utiliser des librairies lors de mon année de Pré-MSC.", "img": "/css.svg" },
-    { "title": "JavaScript", "description": "Interactivité web — front-end.", "img": "/js.svg" },
+    { "title": "HTML", "description": "Structure des pages web. J'ai énormément utilisé ce langage en première année de BTS pour réaliser des petits sites.", "img": "/html.png" },
+    { "title": "CSS", "description": "Mise en forme, design et animations. J'ai commencé à utiliser des librairies lors de mon année de Pré-MSC.", "img": "/css.png" },
+    { "title": "JavaScript", "description": "Interactivité web — front-end.", "img": "/js.png" },
     { "title": "Python", "description": "Scripts, algorithmie et mini-jeux. J'ai découvert ce langage lors de mon année de Pré-MSC et j'ai réalisé un jeu du « Pendu ».", "img": "/python.svg" },
     { "title": "C++", "description": "Programmation système et projets scolaires. Sans doute le langage que j'ai le plus utilisé jusqu'à présent.", "img": "/cplusplus.svg" },
-    { "title": "C#", "description": "Développement d'applications et jeux. J'ai réalisé plusieurs projets avec ce langage, notamment mon projet de fin d'année de BTS.", "img": "/csharp.svg" },
-    { "title": "SQL", "description": "Gestion de bases de données. Langage utilisé dans la quasi-totalité de mes projets, excellente maîtrise.", "img": "/sql.svg" },
-    { "title": "PHP", "description": "Langage orienté web dynamique. Utilisé lors de mes projets en BTS pour connecter les interfaces aux bases de données.", "img": "/php.svg" },
+    { "title": "C#", "description": "Développement d'applications et jeux. J'ai réalisé plusieurs projets avec ce langage, notamment mon projet de fin d'année de BTS.", "img": "/csharp.png" },
+    { "title": "SQL", "description": "Gestion de bases de données. Langage utilisé dans la quasi-totalité de mes projets, excellente maîtrise.", "img": "/sql.png" },
+    { "title": "PHP", "description": "Langage orienté web dynamique. Utilisé lors de mes projets en BTS pour connecter les interfaces aux bases de données.", "img": "/php.png" },
     { "title": "COBOL", "description": "Découvert récemment, compétences en cours d’acquisition.", "img": "/cobol.svg" }
   ],
 
