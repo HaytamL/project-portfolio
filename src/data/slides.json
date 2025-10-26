@@ -2,44 +2,41 @@
   "accueil": [
     {
       "title": "Bienvenue sur mon portfolio",
-      "description": "De l'idée au code... Découvrez mes projets, compétences et mon parcours.",
-      "img": "/images/home.jpg"
+      "description": "De l'idée au code... Découvrez mes projets, mes compétences et mon parcours.",
+      "img": "/images/pp.png"
     }
   ],
-
-  "a-propos": [
+"a-propos": [
     {
       "title": "Passionné d'informatique",
-      "description": "Depuis mon enfance, l'informatique est pour moi une source de curiosité. J'ai toujours voulu comprendre comment fonctionne Internet, les jeux vidéo et les applications.",
-      "img": "/images/about-1.jpg"
-    },
-    {
-      "title": "Mon parcours académique",
-      "description": "Baccalauréat scientifique suivi d’un BTS CIEL. Aujourd'hui en 1ère année de Master Of Science à Epitech Strasbourg.",
-      "img": "/images/about-2.jpg"
+      "description": "Depuis mon plus jeune âge, l'informatique a toujours éveillé ma curiosité. J’ai grandi en essayant de comprendre comment fonctionnaient Internet, les jeux vidéo et les applications que j’utilisais au quotidien. Ce qui était au départ un simple intérêt est devenu une véritable vocation : créer, comprendre, réparer et améliorer des systèmes numériques afin d’en faire des outils utiles et accessibles.",
+      "img": "/images/placeholderinformatique.png"
     },
     {
       "title": "Mes expériences",
-      "description": "Stage de 2 mois validé par un CDD d’un mois. Ce fut une étape clé dans le développement de mes compétences professionnelles.",
-      "img": "/images/about-3.jpg"
+      "description": "Au cours de ma formation, j’ai eu l’opportunité d’effectuer un stage de deux mois, prolongé par un CDD d’un mois, une expérience très enrichissante, autant d’un point de vue technique qu’humain. J’ai participé à la mise en place et l’amélioration de solutions logicielles, travaillé avec des technologies variées et collaboré étroitement avec une équipe professionnelle. Cette immersion m’a permis de comprendre l’importance des bonnes pratiques, de la communication, de la rigueur ainsi que de la recherche de solutions fiables et durables. Ces responsabilités m'ont conforté dans mon choix de poursuivre dans le développement informatique et ont renforcé ma motivation à progresser chaque jour.",
+      "img": "/images/workplaceholder.png"
     }
   ],
 
   "formation": [
     {
       "title": "Master Of Science — Epitech Strasbourg",
-      "description": "Développement logiciel, innovation et gestion de projet.",
-      "img": "/epitech.svg"
+      "description": "Développement logiciel, innovation et gestion de projet. Me permettra de devenir un développeur confirmé.",
+      "img": "/epitech.svg",
+      "dates": "2025-2028"
     },
     {
       "title": "BTS CIEL — Cybersécurité",
-      "description": "Option informatique et réseau. Projet de fin d'études : parking automatisé.",
-      "img": "/couffignal.svg"
+      "description": "Option informatique et réseau. Projet de fin d'études : parking automatisé. M'a permis de développer mes premières compétences informatiques, et d'acquérir de solides bases.",
+      "img": "/couffignal.svg",
+      "dates": "2023-2025"
     },
     {
       "title": "Baccalauréat",
       "description": "Spécialités Mathématiques, SVT, Physique-Chimie.",
-      "img": "/hm.svg"
+      "img": "/hm.svg",
+      "dates": "2020-2023"
     }
   ],
 
@@ -67,28 +64,39 @@
   ],
 
   "langages": [
-    { "title": "HTML", "description": "Structure des pages web.", "img": "/html.svg" },
-    { "title": "CSS", "description": "Mise en forme, design et animations.", "img": "/css.svg" },
+    { "title": "HTML", "description": "Structure des pages web. J'ai énormément utilisé ce langage en première année de BTS pour réaliser des petits sites.", "img": "/html.svg" },
+    { "title": "CSS", "description": "Mise en forme, design et animations. J'ai commencé à utiliser des librairies lors de mon année de Pré-MSC.", "img": "/css.svg" },
     { "title": "JavaScript", "description": "Interactivité web — front-end.", "img": "/js.svg" },
-    { "title": "Python", "description": "Scripts, algorithmie et mini-jeux.", "img": "/python.svg" },
-    { "title": "C++", "description": "Programmation système et projets scolaires.", "img": "/cplusplus.svg" },
-    { "title": "C#", "description": "Développement d'applications et jeux.", "img": "/csharp.svg" },
-    { "title": "SQL", "description": "Gestion de bases de données.", "img": "/sql.svg" }
+    { "title": "Python", "description": "Scripts, algorithmie et mini-jeux. J'ai découvert ce langage lors de mon année de Pré-MSC et j'ai réalisé un jeu du « Pendu ».", "img": "/python.svg" },
+    { "title": "C++", "description": "Programmation système et projets scolaires. Sans doute le langage que j'ai le plus utilisé jusqu'à présent.", "img": "/cplusplus.svg" },
+    { "title": "C#", "description": "Développement d'applications et jeux. J'ai réalisé plusieurs projets avec ce langage, notamment mon projet de fin d'année de BTS.", "img": "/csharp.svg" },
+    { "title": "SQL", "description": "Gestion de bases de données. Langage utilisé dans la quasi-totalité de mes projets, excellente maîtrise.", "img": "/sql.svg" },
+    { "title": "PHP", "description": "Langage orienté web dynamique. Utilisé lors de mes projets en BTS pour connecter les interfaces aux bases de données.", "img": "/php.svg" },
+    { "title": "COBOL", "description": "Découvert récemment, compétences en cours d’acquisition.", "img": "/cobol.svg" }
   ],
+
 
   "outils": [
     {
       "title": "GitHub",
-      "description": "Gestion de version et collaboration.",
-      "img": "/github.svg"
+      "description": "Gestion de versions et collaboration sur des projets en équipe, avec création de branches, pull requests et suivi des modifications."
     },
     {
       "title": "Communication",
-      "description": "Aptitude à collaborer avec des équipes multi-compétences."
+      "description": "Capacité à communiquer efficacement avec des équipes pluri-disciplinaires, aussi bien à l’oral qu’à l’écrit, via des outils tels que Teams, Discord et PowerPoint."
     },
     {
       "title": "Travail d’équipe",
-      "description": "Adaptation, organisation, efficacité collective."
+      "description": "Adaptation, organisation, répartition des tâches et capacité à s’investir dans un projet collectif."
+    },
+    {
+      "title": "Outils informatiques",
+      "description": "Maîtrise des environnements Windows et Linux, de la suite Office (Word, Excel, PowerPoint) et d’outils de développement tels que VS Code."
+    },
+    {
+      "title": "Outils réseaux",
+      "description": "Notions pratiques en réseaux acquises lors du BTS CIEL, notamment sur la configuration et l’administration d’équipements, outils de diagnostic et protocoles réseau."
     }
   ]
+
 }

@@ -89,8 +89,11 @@ export default function Navbar({ onSectionSelect }: NavbarProps) {
     <div className="relative w-full flex justify-center px-4 z-10">
       <NavigationMenu viewport={false}>
         <NavigationMenuList className="text-black">
+          <li className="flex items-center mr-4">
+            <Image src="/logo.png" alt="Logo" width={38} height={38} className="rounded-full shadow-md hover:scale-105 transition-transform" unoptimized/>
+          </li>
           <NavigationMenuItem>
-            <NavigationMenuTrigger className="text-black">Accueil</NavigationMenuTrigger>
+            <NavigationMenuTrigger className="text-black hover:text-white data-[state=open]:text-white">Accueil</NavigationMenuTrigger>
             <NavigationMenuContent>
               <ul className="grid gap-2 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr] bg-white p-4 rounded-xl shadow-md">
                 <li className="row-span-3">
@@ -137,7 +140,7 @@ export default function Navbar({ onSectionSelect }: NavbarProps) {
 
 
           <NavigationMenuItem>
-            <NavigationMenuTrigger className="text-black">Skills</NavigationMenuTrigger>
+            <NavigationMenuTrigger className="text-black hover:text-white data-[state=open]:text-white">Skills</NavigationMenuTrigger>
             <NavigationMenuContent>
               <ul className="grid w-[300px] gap-4 bg-white p-4 rounded-xl shadow-md">
                 <li>
@@ -182,7 +185,7 @@ export default function Navbar({ onSectionSelect }: NavbarProps) {
 
 
           <NavigationMenuItem>
-            <NavigationMenuTrigger className="text-black">Projets</NavigationMenuTrigger>
+            <NavigationMenuTrigger className="text-black hover:text-white data-[state=open]:text-white">Projets</NavigationMenuTrigger>
             <NavigationMenuContent>
               <ul className="grid w-[400px] gap-2 md:w-[500px] md:grid-cols-2 lg:w-[600px] bg-white p-4 rounded-xl shadow-md">
                 {projets.map((projet) => (
@@ -196,7 +199,7 @@ export default function Navbar({ onSectionSelect }: NavbarProps) {
 
 
           <NavigationMenuItem>
-            <NavigationMenuTrigger className="text-black">Contact</NavigationMenuTrigger>
+            <NavigationMenuTrigger className="text-black hover:text-white data-[state=open]:text-white">Contact</NavigationMenuTrigger>
             <NavigationMenuContent>
               <ul className="grid w-[250px] gap-3 p-3 bg-white rounded-xl shadow-md">
                 <li>
