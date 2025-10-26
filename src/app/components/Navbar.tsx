@@ -57,11 +57,7 @@ function ListItem({ title, children, href, onClick }: ListItemProps) {
   return (
     <li>
       <NavigationMenuLink asChild>
-        <Link
-          href={href}
-          onClick={handleClick}
-          className="no-underline text-black hover:opacity-80 transition-opacity"
-        >
+        <Link href={href} onClick={handleClick} className="no-underline text-black hover:opacity-80 transition-opacity">
           <div className="text-sm leading-none font-medium text-black">{title}</div>
           <p className="text-black/70 line-clamp-2 text-sm leading-snug">{children}</p>
         </Link>
@@ -89,26 +85,20 @@ export default function Navbar({ onSectionSelect }: NavbarProps) {
     <div className="relative w-full flex justify-center px-4 z-10">
       <NavigationMenu viewport={false}>
         <NavigationMenuList className="text-black">
+          
           <li className="flex items-center mr-4">
             <Image src="/logo.png" alt="Logo" width={38} height={38} className="rounded-full shadow-md hover:scale-105 transition-transform" unoptimized/>
           </li>
+
           <NavigationMenuItem>
             <NavigationMenuTrigger className="text-black hover:text-white data-[state=open]:text-white">Accueil</NavigationMenuTrigger>
             <NavigationMenuContent>
               <ul className="grid gap-2 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr] bg-white p-4 rounded-xl shadow-md">
                 <li className="row-span-3">
                   <NavigationMenuLink asChild>
-                    <Link
-                      href="/"
-                      onClick={(e) => { e.preventDefault(); handleSelect('Accueil'); }}
-                      className="flex h-full w-full flex-col justify-end rounded-md p-6 no-underline select-none hover:opacity-80"
-                    >
-                      <div className="mt-4 mb-2 text-lg font-medium text-black">
-                        De l&apos;idée au code... Mon portfolio
-                      </div>
-                      <p className="text-black/70 text-sm leading-tight">
-                        Bienvenue !
-                      </p>
+                    <Link href="/" onClick={(e) => { e.preventDefault(); handleSelect('Accueil'); }} className="flex h-full w-full flex-col justify-end rounded-md p-6 no-underline select-none hover:opacity-80">
+                      <div className="mt-4 mb-2 text-lg font-medium text-black">De l&apos;idée au code... Mon portfolio</div>
+                      <p className="text-black/70 text-sm leading-tight">Bienvenue !</p>
                     </Link>
                   </NavigationMenuLink>
                 </li>
@@ -119,25 +109,19 @@ export default function Navbar({ onSectionSelect }: NavbarProps) {
                 <ListItem href="#a-propos" title="À propos de moi" onClick={handleSelect}>
                   Mon histoire
                 </ListItem>
+                
                 <li>
                   <NavigationMenuLink asChild>
-                    <a
-                      href="/CV.pdf"
-                      onClick={(e) => {
-                        e.preventDefault();
-                        window.open('/CV.pdf', '_blank');
-                      }}
-                      className="no-underline text-black hover:opacity-80 transition-opacity"
-                    >
+                    <a href="/CV.pdf" onClick={(e) => { e.preventDefault(); window.open('/CV.pdf', '_blank'); }} className="no-underline text-black hover:opacity-80 transition-opacity">
                       <div className="text-sm leading-none font-medium text-black">Mon CV</div>
                       <p className="text-black/70 line-clamp-2 text-sm leading-snug">Cliquer pour télécharger mon CV.</p>
                     </a>
                   </NavigationMenuLink>
                 </li>
+
               </ul>
             </NavigationMenuContent>
           </NavigationMenuItem>
-
 
           <NavigationMenuItem>
             <NavigationMenuTrigger className="text-black hover:text-white data-[state=open]:text-white">Skills</NavigationMenuTrigger>
@@ -145,35 +129,21 @@ export default function Navbar({ onSectionSelect }: NavbarProps) {
               <ul className="grid w-[300px] gap-4 bg-white p-4 rounded-xl shadow-md">
                 <li>
                   <NavigationMenuLink asChild>
-                    <Link
-                      href="#langages"
-                      onClick={(e) => { e.preventDefault(); handleSelect('Langages'); }}
-                      className="text-black"
-                    >
+                    <Link href="#langages" onClick={(e) => { e.preventDefault(); handleSelect('Langages'); }} className="text-black hover:text-black">
                       <div className="font-medium">Mes langages et frameworks</div>
-                      <div className="text-black/70">
-                        Découvrez les langages que j&apos;ai appris et que j&apos;apprends actuellement.
-                      </div>
+                      <div className="text-black/70">Découvrez les langages que j&apos;ai appris et que j&apos;apprends actuellement.</div>
                     </Link>
                   </NavigationMenuLink>
 
                   <NavigationMenuLink asChild>
-                    <Link
-                      href="#projets"
-                      onClick={(e) => { e.preventDefault(); handleSelect('Projets'); }}
-                      className="text-black"
-                    >
+                    <Link href="#projets" onClick={(e) => { e.preventDefault(); handleSelect('Projets'); }} className="text-black hover:text-black">
                       <div className="font-medium">Projets</div>
                       <div className="text-black/70">Jetez un coup d&apos;œil à mes projets.</div>
                     </Link>
                   </NavigationMenuLink>
 
                   <NavigationMenuLink asChild>
-                    <Link
-                      href="#outils"
-                      onClick={(e) => { e.preventDefault(); handleSelect('Outils'); }}
-                      className="text-black"
-                    >
+                    <Link href="#outils" onClick={(e) => { e.preventDefault(); handleSelect('Outils'); }} className="text-black hover:text-black">
                       <div className="font-medium">Outils</div>
                       <div className="text-black/70">Les outils informatiques que je maîtrise.</div>
                     </Link>
@@ -182,7 +152,6 @@ export default function Navbar({ onSectionSelect }: NavbarProps) {
               </ul>
             </NavigationMenuContent>
           </NavigationMenuItem>
-
 
           <NavigationMenuItem>
             <NavigationMenuTrigger className="text-black hover:text-white data-[state=open]:text-white">Projets</NavigationMenuTrigger>
@@ -197,45 +166,28 @@ export default function Navbar({ onSectionSelect }: NavbarProps) {
             </NavigationMenuContent>
           </NavigationMenuItem>
 
-
           <NavigationMenuItem>
             <NavigationMenuTrigger className="text-black hover:text-white data-[state=open]:text-white">Contact</NavigationMenuTrigger>
             <NavigationMenuContent>
               <ul className="grid w-[250px] gap-3 p-3 bg-white rounded-xl shadow-md">
                 <li>
                   <NavigationMenuLink asChild>
-                    <a
-                      href="https://github.com/HaytamL"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center gap-3 text-black hover:opacity-80 transition-opacity"
-                    >
-                      <Image src="/github.svg" alt="GitHub" width={20} height={20} />
-                      GitHub
+                    <a href="https://github.com/HaytamL" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-black hover:opacity-80 transition-opacity">
+                      <Image src="/github.svg" alt="GitHub" width={20} height={20} /> GitHub
                     </a>
                   </NavigationMenuLink>
                 </li>
                 <li>
                   <NavigationMenuLink asChild>
-                    <a
-                      href="https://www.linkedin.com/in/haytam-lazizi-vix-931882386/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center gap-3 text-black hover:opacity-80 transition-opacity"
-                    >
-                      <Image src="/linkedin-big-logo.svg" alt="LinkedIn" width={20} height={20} />
-                      LinkedIn
+                    <a href="https://www.linkedin.com/in/haytam-lazizi-vix-931882386/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-black hover:opacity-80 transition-opacity">
+                      <Image src="/linkedin-big-logo.svg" alt="LinkedIn" width={20} height={20} /> LinkedIn
                     </a>
                   </NavigationMenuLink>
                 </li>
                 <li>
                   <NavigationMenuLink asChild>
-                    <a
-                      href="mailto:haytam.lazizi@example.com"
-                      className="flex items-center gap-3 text-black hover:opacity-80 transition-opacity"
-                    >
-                      <Image src="/contact.svg" alt="Email" width={20} height={20} />
-                      M&apos;envoyer un email
+                    <a href="mailto:haytam.lazizi@example.com" className="flex items-center gap-3 text-black hover:opacity-80 transition-opacity">
+                      <Image src="/contact.svg" alt="Email" width={20} height={20} /> M&apos;envoyer un email
                     </a>
                   </NavigationMenuLink>
                 </li>

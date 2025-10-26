@@ -54,12 +54,12 @@
     {
       "title": "Pendu",
       "description": "Un jeu du pendu réalisé avec Python.",
-      "img": "/images/pendu.png"
+      "img": "/images/hangman.png"
     },
     {
       "title": "Portfolio",
       "description": "Ce site, réalisé afin de présenter mon parcours et mes compétences.",
-      "img": "/images/portfolio.png"
+      "img": "/logo.png"
     }
   ],
 
