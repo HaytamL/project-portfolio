@@ -7,7 +7,7 @@ export default function Footer() {
 
   return (
     <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a className="flex items-center gap-1 hover:underline hover:underline-offset-4" href="https://github.com/HaytamL" target="_blank" rel="noopener noreferrer"><Image aria-hidden src="/github.svg" alt="File icon" width={16} height={16} />Github</a>
+        <a className="flex items-center gap-1 hover:underline hover:underline-offset-4" href="https://github.com/HaytamL" target="_blank" rel="noopener noreferrer"><Image aria-hidden src="/github.png" alt="File icon" width={16} height={16} />Github</a>
         <a className="flex items-center gap-1 hover:underline hover:underline-offset-4" href="https://www.linkedin.com/in/haytam-lazizi-vix-931882386/"target="_blank"rel="noopener noreferrer"><Image aria-hidden src="/linkedin-big-logo.svg" alt="Window icon" width={16} height={16} />Linkedin</a>
         <button onClick={() => setIsModalOpen(true)}className="flex items-center gap-1 hover:underline hover:underline-offset-4">
           <Image aria-hidden src="/contact.svg" alt="Contact icon" width={16} height={16} />
