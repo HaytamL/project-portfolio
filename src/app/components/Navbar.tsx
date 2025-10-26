@@ -173,7 +173,7 @@ export default function Navbar({ onSectionSelect }: NavbarProps) {
                 <li>
                   <NavigationMenuLink asChild>
                     <a href="https://github.com/HaytamL" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-black hover:opacity-80 transition-opacity">
-                      <Image src="/github.svg" alt="GitHub" width={20} height={20} /> GitHub
+                      <Image src="/github.png" alt="GitHub" width={20} height={20} /> GitHub
                     </a>
                   </NavigationMenuLink>
                 </li>
