@@ -1,11 +1,4 @@
-## --------------------------------------------------
-##   Makefile minimal pour Jenkins / Epitech
-## --------------------------------------------------
-
-# Commandes "vides" pour éviter les erreurs Jenkins.
-# Elles ne font rien, mais permettent aux pipelines de passer.
-
-.PHONY: all clean fclean re build test
+.PHONY: all clean fclean re build tests_run
 
 all:
 	@echo "Nothing to build"
@@ -22,5 +15,5 @@ re: fclean all
 build:
 	@echo "No build required for this project"
 
-test:
-	@echo "No tests available"
+tests_run:
+	@echo "No tests to run"
