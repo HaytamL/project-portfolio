@@ -15,5 +15,5 @@ re: fclean all
 build:
 	@echo "No build required for this project"
 
-tests_run:
+test_run:
 	@echo "No tests to run"
